@@ -1,0 +1,136 @@
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Regular.ttf);
+	
+}
+
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-SemiBold.ttf);
+	font-weight:500	;
+}
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Light.ttf);
+	font-weight:100	;
+	
+}
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-Bold.ttf);
+	font-weight:bold;
+	}
+	
+@font-face {
+	font-family: nunito;
+	src: url(../fonts/Nunito-ExtraBold.ttf);
+	font-weight:900;
+}
+
+body {
+	font-family: nunito;
+}
+.dropdown a:focus{ color:#000 !important; background:transparent !important}
+
+
+/*hompepage*/
+.innerbanner img {
+    position: absolute;
+}
+.innerbanner {
+    position: relative;
+        height: 377px;
+}
+.bannerLabels {
+    position: absolute;
+    bottom: 10px;
+    color: #222222;
+    left: 20px;
+}
+h2.text-uppercase.headingbanner {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+p.text-uppercase.para {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.banners {
+    margin-top: 30px;
+}
+.features img {
+
+   display:inline-block;
+}
+.features p.text-uppercase.para {
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 15px;
+   display:inline-block;
+}
+.features {
+    margin: 50px 0;
+}
+.mainheading {
+    font-weight: 600;
+    font-size: 25px;
+}.mainheading i {
+    font-size: 33px;
+    font-weight: 500;margin-right: 6px;
+    position: relative;
+    top: 3px;
+}div#instagram {
+    margin: 70px 0 48px;
+}ul.logos li {
+    display: inline-block;
+    margin: 0 18px;
+}
+ul.logos {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+.shopybylabel {
+    margin-top: 60px;
+    overflow: hidden;
+}
+.price_ span {
+    color: #222;
+    font-weight: 500;
+    font-size: 15px;
+}
+.labelvalues .para {
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 0;
+    display: inline-block;
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.innerItem a:hover, .innerItem a:focus {
+    text-decoration: none;
+}
+a.wishlist img {
+    width: auto !important;
+    position: absolute;
+    right: 0;
+}.innerItem {
+    position: relative;
+}a.wishlist {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+a.wishlist:hover img.wishlist_sl {
+    display: block !important;
+}
+.productcrousel .owl-stage {
+    padding-left: 0 !important;
+}
+
+/*hompepage end*/
+
